@@ -154,7 +154,7 @@ namespace AulaGama
         }
         public void calcSalarioByTimeWeek(double lsalario)
         {
-            Console.WriteLine("O Salario do funcinario: " + nome + " e : " + Math.Round((lsalario / carga) * (carga * 5), 2) + " a Semana");
+            Console.WriteLine("O Salario do funcinario: " + nome + " e : " + Math.Round( ((lsalario / carga) *  5) , 2) + " a Semana");
             Console.WriteLine("Aperte qualquer tecla para continuar");
             Console.ReadLine();
             Console.Clear();
